@@ -1,0 +1,58 @@
+body{
+	background-color: #666E76;
+}
+.menu{
+	background-color: transparent;
+}
+a, ul li a{
+	color: #FFF !important;
+}
+a:hover, ul li a:hover{
+	color: #cfd3f7 !important;
+	text-decoration: none;
+}
+
+.menu-scroll{
+	background: #263271 !important;
+}
+
+@media (max-width: 800px){
+	.menu{
+		background: #263271 !important;
+	}
+	.carousel-top{
+		margin-top: 55px;
+	}
+}
+
+.jumbotron{
+	border-radius: 0;
+}
+
+.servicos{
+	background-color: #fafafa;
+	margin-bottom: 0;
+}
+
+.servicos .card{
+	background-color: transparent;
+	border: 0px solid rgb(0,0,0,.125);
+}
+
+.sobre-empresa{
+	background-color: #0f84e7;
+	columns: white;
+	margin-bottom: 0;
+}
+
+.contato{
+	background-color: #fafafa;
+	margin-bottom: 0;
+}
+
+.rodape{
+	background-color: #0f84e7;
+	color: white;
+	margin-bottom: 0;
+	padding-top: 20px;
+}
